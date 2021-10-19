@@ -1,0 +1,30 @@
+﻿  Book.cpp
+  Main.cpp
+  Publication.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xstddef(127,22): error C2676: бинарный "<": "const _Ty" не определяет этот оператор или преобразование к типу приемлемо к встроенному оператору
+          with
+          [
+              _Ty=KeyBook
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xstddef(126): message : во время компиляции функции-члена класс шаблон "bool std::less<KeyBook>::operator ()(const _Ty &,const _Ty &) const"
+          with
+          [
+              _Ty=KeyBook
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xutility(1483): message : выполняется компиляция ссылки на экземпляр шаблон функции "bool std::less<KeyBook>::operator ()(const _Ty &,const _Ty &) const"
+          with
+          [
+              _Ty=KeyBook
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(1318): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "std::less<KeyBook>"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\xmemory(1318): message : выполняется компиляция ссылки на шаблон переменной "const bool is_empty_v<std::less<KeyBook> >"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\map(75): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>"
+          with
+          [
+              _Kty=KeyBook,
+              _Ty=Book,
+              _Pr=std::less<KeyBook>,
+              _Alloc=std::allocator<std::pair<const KeyBook,Book>>
+          ]
+D:\Visual Studio\Project2\Project2\Publication.h(9): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "std::map<KeyBook,Book,std::less<KeyBook>,std::allocator<std::pair<const KeyBook,Book>>>"
+  Создание кода...
